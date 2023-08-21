@@ -31,12 +31,10 @@ class Context:
 def main() -> None:
     state1 = ConcreteStateA()
     context = Context(state1)
-
     context.request()
 
     state2 = ConcreteStateB()
     context.change_state(state2)
-
     context.request()
 
 
