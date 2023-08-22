@@ -20,7 +20,7 @@ class AbstractClass(ABC):
 class ConcreteClass(AbstractClass):
     def get_name(self) -> str:
         return "ConcreteClassObject"
-    
+
     def get_current_time(self) -> str:
         return str(datetime.datetime.now())
 
